@@ -7,7 +7,7 @@ import sys
 import time
 import requests
 import json
-from gsa import make_directory
+from .gsa import make_directory
 from tqdm import tqdm
 headers = {
     'Accept': 'application/json, text/javascript, */*; q=0.01',
